@@ -54,9 +54,20 @@ body{
 /* banner picture */
 .banner{
     display: flex;
-    padding:30px 30px 30px 150px;
+    padding:30px 30px 0px 150px;
     align-items: center;
+    background-image: url(../picture/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    justify-content: space-around;
 }
 .banner .my picture {
     width: 500px;
+    
+}
+
+.banner-greeating{
+    font-size: 45px;
+    font-weight: 600;
+    font-style: normal;
 }
