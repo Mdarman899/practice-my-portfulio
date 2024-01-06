@@ -2,11 +2,16 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+.section-title{
+    text-align:center;
+    color:#181818;
+    font-weight: 700;
+    font-size: 35px;
+}
 /* header related styles */
 .header{
     background-color: #FFF8F3;
 }
-
 
 /* nav related styles    */
 .nav-header{
@@ -62,8 +67,7 @@ body{
     justify-content: space-between;
 }
 .banner .my picture {
-    width: 500px;
-    
+    width: 500px; 
 }
 
 .banner-greeting{
@@ -96,3 +100,14 @@ body{
 /* main section styles */
 
 /* about section styles  */
+.about{
+    padding:130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin:130px 0px;
+}
+.section-discription{
+    color:#757575;
+    text-align: center;
+    font-size: 18px;
+}
