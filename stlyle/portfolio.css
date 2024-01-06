@@ -2,11 +2,18 @@
 body{
     font-family: 'Open Sans', sans-serif;
 }
+/* header related styles */
+.header{
+    background-color: #FFF8F3;
+}
+
+
 /* nav related styles    */
 .nav-header{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin:0px 200px;
 }
 
 .my-name{
@@ -43,4 +50,13 @@ body{
     /* height: 30px;
     width:100px; */
     
+}
+/* banner picture */
+.banner{
+    display: flex;
+    padding:30px 30px 30px 150px;
+    align-items: center;
+}
+.banner .my picture {
+    width: 500px;
 }
