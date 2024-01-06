@@ -59,15 +59,40 @@ body{
     background-image: url(../picture/header_bg.png);
     background-repeat: no-repeat;
     background-position: bottom right;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .banner .my picture {
     width: 500px;
     
 }
 
-.banner-greeating{
+.banner-greeting{
     font-size: 45px;
     font-weight: 600;
-    font-style: normal;
+    color:#474747;
+    margin-bottom: 0;
 }
+.banner-heading{
+    font-size: 85px;
+    font-style:italic ;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    color:rgb(206, 62, 62)
+   
+}
+.banner-para{
+    margin-top: 0px;
+    margin-bottom:15px;
+}
+.banner-content{
+    max-width:500px;
+}
+.a{
+    margin-top: 10px;
+}
+
+/* main section styles */
+
+/* about section styles  */
