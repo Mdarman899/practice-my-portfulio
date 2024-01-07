@@ -98,6 +98,10 @@ body{
 }
 
 /* main section styles */
+main{
+    max-width: 1140px;
+    margin:0 auto;
+}
 
 /* about section styles  */
 .about{
@@ -105,6 +109,7 @@ body{
     border-radius: 10px;
     background: #FFF8F3;
     margin:130px 0px;
+    
 }
 .section-discription{
     color:#757575;
