@@ -116,3 +116,18 @@ main{
     text-align: center;
     font-size: 18px;
 }
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+.about-info{
+    text-align: center;
+}
+.info-title{
+    margin-bottom: 0px;
+    color:#474747;
+}
+.info-description{
+    margin-top:-4px;
+    font-weight: 700;
+}
