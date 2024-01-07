@@ -131,21 +131,26 @@ main{
     margin-top:-4px;
     font-weight: 700;
 }
-/* What i do section */
+    /* What i do section */
 .more-discription{
     padding:30px 120px;
 }
 .skill-container{
     display: flex;
-    justify-content: space-around;
+    gap:20px;
+
 }
+
 .skill{
-    width:210px;
-    background-color:#e6e3e1 ;
+   
     border-radius: 5px;
+    background:#FFF;  
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.6);
+    padding: 30px;
 }
 .skill-discription{
     color:#757575;
     font-weight: 400;
-    line-height: 25px;
+    line-height: 30px;
+   
 }
